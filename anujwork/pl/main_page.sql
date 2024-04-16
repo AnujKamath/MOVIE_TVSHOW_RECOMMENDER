@@ -9,7 +9,7 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Welcome to the Movie and TV Show Recommender!');
     <<re_login>>
     DBMS_OUTPUT.PUT_LINE('Please enter your user ID:');
-    v_user_id:='& ';
+    v_user_id:='&USERID';
     temp:=0;
     select user_id into temp from user_info where user_id=v_user_id;
     if temp=0 then GOTO re_login; end if;
@@ -19,7 +19,7 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('1. Go to Movie Field');
     DBMS_OUTPUT.PUT_LINE('2. Go to TV Shows Field');
     DBMS_OUTPUT.PUT_LINE('3. Logout');
-    v_choice:='& ';
+    v_choice:='&CHOICE';
 
     -- Process user choice
     CASE v_choice
