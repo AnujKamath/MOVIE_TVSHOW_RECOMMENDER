@@ -1,3 +1,8 @@
+CREATE TABLE genre (
+    genre_id NUMERIC CONSTRAINT pk_genre PRIMARY KEY,
+    name VARCHAR2(255)
+);
+
 CREATE TABLE movie (
     movie_id NUMERIC CONSTRAINT pk_movie PRIMARY KEY,
     name VARCHAR2(255),
@@ -25,7 +30,7 @@ CREATE TABLE tv_episode (
     CONSTRAINT fk_tv_episode_tv FOREIGN KEY (tv_id) REFERENCES tv_series(tv_id)
 );
 
-CREATE TABLE user (
+CREATE TABLE user_info (
     user_id NUMERIC CONSTRAINT pk_user PRIMARY KEY,
     name VARCHAR2(255),
     age NUMERIC CONSTRAINT chk_user_age CHECK (age >= 0)
@@ -35,8 +40,8 @@ CREATE TABLE friendship (
     friendship_id NUMERIC CONSTRAINT pk_friendship PRIMARY KEY,
     user_id NUMERIC,
     friend_id NUMERIC,
-    CONSTRAINT fk_friendship_user FOREIGN KEY (user_id) REFERENCES user(user_id),
-    CONSTRAINT fk_friendship_friend FOREIGN KEY (friend_id) REFERENCES user(user_id)
+    CONSTRAINT fk_friendship_user FOREIGN KEY (user_id) REFERENCES user_info(user_id),
+    CONSTRAINT fk_friendship_friend FOREIGN KEY (friend_id) REFERENCES user_info(user_id)
 );
 
 CREATE TABLE movie_watching (
@@ -45,7 +50,7 @@ CREATE TABLE movie_watching (
     movie_id NUMERIC,
     duration_minutes NUMERIC CONSTRAINT chk_movie_watching_duration CHECK (duration_minutes >= 0),
     last_watched TIMESTAMP,
-    CONSTRAINT fk_movie_watching_user FOREIGN KEY (user_id) REFERENCES user(user_id),
+    CONSTRAINT fk_movie_watching_user FOREIGN KEY (user_id) REFERENCES user_info(user_id),
     CONSTRAINT fk_movie_watching_movie FOREIGN KEY (movie_id) REFERENCES movie(movie_id)
 );
 
@@ -57,7 +62,7 @@ CREATE TABLE tv_watching (
     current_season NUMERIC CONSTRAINT chk_tv_watching_current_season CHECK (current_season > 0),
     duration_minutes NUMERIC CONSTRAINT chk_tv_watching_duration CHECK (duration_minutes >= 0),
     last_watched TIMESTAMP,
-    CONSTRAINT fk_tv_watching_user FOREIGN KEY (user_id) REFERENCES user(user_id),
+    CONSTRAINT fk_tv_watching_user FOREIGN KEY (user_id) REFERENCES user_info(user_id),
     CONSTRAINT fk_tv_watching_tv FOREIGN KEY (tv_id) REFERENCES tv_series(tv_id)
 );
 
@@ -65,15 +70,26 @@ CREATE TABLE movie_liked (
     movie_liked_id NUMERIC CONSTRAINT pk_movie_liked PRIMARY KEY,
     user_id NUMERIC,
     movie_id NUMERIC,
-    CONSTRAINT fk_movie_liked_user FOREIGN KEY (user_id) REFERENCES user(user_id),
-    CONSTRAINT fk_movie_liked_movie FOREIGN KEY (movie_id) REFERENCES movie(movie_id)
+    CONSTRAINT fk_movie_liked_user FOREIGN KEY (user_id) REFERENCES user_info(user_id),
+    CONSTRAINT fk_movie_liked_movie FOREIGN KEY (movie_id) REFERENCES movie(movie_id),
+    CONSTRAINT chk_movie_liked_duration 
+        CHECK (
+            (SELECT duration_minutes 
+             FROM movie 
+             WHERE movie_id = movie_liked.movie_id) * 0.5 
+            <= (SELECT duration_minutes 
+                FROM movie_watching 
+                WHERE user_id = movie_liked.user_id 
+                  AND movie_id = movie_liked.movie_id)
+        )
 );
+
 
 CREATE TABLE tv_liked (
     tv_liked_id NUMERIC CONSTRAINT pk_tv_liked PRIMARY KEY,
     user_id NUMERIC,
     tv_id NUMERIC,
-    CONSTRAINT fk_tv_liked_user FOREIGN KEY (user_id) REFERENCES user(user_id),
+    CONSTRAINT fk_tv_liked_user FOREIGN KEY (user_id) REFERENCES user_info(user_id),
     CONSTRAINT fk_tv_liked_tv FOREIGN KEY (tv_id) REFERENCES tv_series(tv_id)
 );
 
