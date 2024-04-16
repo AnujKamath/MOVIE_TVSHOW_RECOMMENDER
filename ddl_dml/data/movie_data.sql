@@ -81,348 +81,348 @@ INSERT INTO movie VALUES (75, 'Inception', 148, 8.8, 'PG-13');
 
 -- movie_genre table
 -- The Dark Knight: Action, Crime, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (1, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (1, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (1, 4);
+INSERT INTO movie_genre VALUES (1, 1);
+INSERT INTO movie_genre VALUES (1, 10);
+INSERT INTO movie_genre VALUES (1, 4);
 
 -- Inception: Action, Adventure, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (2, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (2, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (2, 8);
+INSERT INTO movie_genre VALUES (2, 1);
+INSERT INTO movie_genre VALUES (2, 2);
+INSERT INTO movie_genre VALUES (2, 8);
 
 -- The Shawshank Redemption: Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (3, 4);
+INSERT INTO movie_genre VALUES (3, 4);
 
 -- Pulp Fiction: Crime, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (4, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (4, 4);
+INSERT INTO movie_genre VALUES (4, 10);
+INSERT INTO movie_genre VALUES (4, 4);
 
 -- The Godfather: Crime, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (5, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (5, 4);
+INSERT INTO movie_genre VALUES (5, 10);
+INSERT INTO movie_genre VALUES (5, 4);
 
 -- Forrest Gump: Drama, Romance
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (6, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (6, 13);
+INSERT INTO movie_genre VALUES (6, 4);
+INSERT INTO movie_genre VALUES (6, 13);
 
 -- The Matrix: Action, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (7, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (7, 8);
+INSERT INTO movie_genre VALUES (7, 1);
+INSERT INTO movie_genre VALUES (7, 8);
 
 -- The Lord of the Rings: The Return of the King: Adventure, Drama, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (8, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (8, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (8, 5);
+INSERT INTO movie_genre VALUES (8, 2);
+INSERT INTO movie_genre VALUES (8, 4);
+INSERT INTO movie_genre VALUES (8, 5);
 
 -- Fight Club: Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (9, 4);
+INSERT INTO movie_genre VALUES (9, 4);
 
 -- The Lord of the Rings: The Fellowship of the Ring: Adventure, Drama, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (10, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (10, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (10, 5);
+INSERT INTO movie_genre VALUES (10, 2);
+INSERT INTO movie_genre VALUES (10, 4);
+INSERT INTO movie_genre VALUES (10, 5);
 
 -- The Lord of the Rings: The Two Towers: Adventure, Drama, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (11, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (11, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (11, 5);
+INSERT INTO movie_genre VALUES (11, 2);
+INSERT INTO movie_genre VALUES (11, 4);
+INSERT INTO movie_genre VALUES (11, 5);
 
 -- Star Wars: Episode V - The Empire Strikes Back: Action, Adventure, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (12, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (12, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (12, 5);
+INSERT INTO movie_genre VALUES (12, 1);
+INSERT INTO movie_genre VALUES (12, 2);
+INSERT INTO movie_genre VALUES (12, 5);
 
 -- Avengers: Infinity War: Action, Adventure, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (13, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (13, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (13, 8);
+INSERT INTO movie_genre VALUES (13, 1);
+INSERT INTO movie_genre VALUES (13, 2);
+INSERT INTO movie_genre VALUES (13, 8);
 
 -- Gladiator: Action, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (14, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (14, 4);
+INSERT INTO movie_genre VALUES (14, 1);
+INSERT INTO movie_genre VALUES (14, 4);
 
 -- The Silence of the Lambs: Crime, Drama, Thriller
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (15, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (15, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (15, 9);
+INSERT INTO movie_genre VALUES (15, 10);
+INSERT INTO movie_genre VALUES (15, 4);
+INSERT INTO movie_genre VALUES (15, 9);
 
 -- The Departed: Crime, Drama, Thriller
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (16, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (16, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (16, 9);
+INSERT INTO movie_genre VALUES (16, 10);
+INSERT INTO movie_genre VALUES (16, 4);
+INSERT INTO movie_genre VALUES (16, 9);
 
 -- The Dark Knight Rises: Action, Adventure, Thriller
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (17, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (17, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (17, 9);
+INSERT INTO movie_genre VALUES (17, 1);
+INSERT INTO movie_genre VALUES (17, 2);
+INSERT INTO movie_genre VALUES (17, 9);
 
 -- The Godfather: Part II: Crime, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (18, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (18, 4);
+INSERT INTO movie_genre VALUES (18, 10);
+INSERT INTO movie_genre VALUES (18, 4);
 
 -- The Avengers: Action, Adventure, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (19, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (19, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (19, 8);
+INSERT INTO movie_genre VALUES (19, 1);
+INSERT INTO movie_genre VALUES (19, 2);
+INSERT INTO movie_genre VALUES (19, 8);
 
 -- The Green Mile: Crime, Drama, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (20, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (20, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (20, 5);
+INSERT INTO movie_genre VALUES (20, 10);
+INSERT INTO movie_genre VALUES (20, 4);
+INSERT INTO movie_genre VALUES (20, 5);
 
 -- The Lion King: Animation, Adventure, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (21, 11);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (21, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (21, 4);
+INSERT INTO movie_genre VALUES (21, 11);
+INSERT INTO movie_genre VALUES (21, 2);
+INSERT INTO movie_genre VALUES (21, 4);
 
 -- The Lord of the Rings: The Return of the King: Adventure, Drama, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (22, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (22, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (22, 5);
+INSERT INTO movie_genre VALUES (22, 2);
+INSERT INTO movie_genre VALUES (22, 4);
+INSERT INTO movie_genre VALUES (22, 5);
 
 -- Interstellar: Adventure, Drama, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (23, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (23, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (23, 8);
+INSERT INTO movie_genre VALUES (23, 2);
+INSERT INTO movie_genre VALUES (23, 4);
+INSERT INTO movie_genre VALUES (23, 8);
 
 -- Spirited Away: Animation, Adventure, Family
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (24, 11);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (24, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (24, 12);
+INSERT INTO movie_genre VALUES (24, 11);
+INSERT INTO movie_genre VALUES (24, 2);
+INSERT INTO movie_genre VALUES (24, 12);
 
 -- Saving Private Ryan: Drama, War
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (25, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (25, 16);
+INSERT INTO movie_genre VALUES (25, 4);
+INSERT INTO movie_genre VALUES (25, 16);
 
 -- The Prestige: Drama, Mystery, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (26, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (26, 7);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (26, 8);
+INSERT INTO movie_genre VALUES (26, 4);
+INSERT INTO movie_genre VALUES (26, 7);
+INSERT INTO movie_genre VALUES (26, 8);
 
 -- The Intouchables: Biography, Comedy, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (27, 17);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (27, 3);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (27, 4);
+INSERT INTO movie_genre VALUES (27, 17);
+INSERT INTO movie_genre VALUES (27, 3);
+INSERT INTO movie_genre VALUES (27, 4);
 
 -- The Pianist: Biography, Drama, Music
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (28, 17);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (28, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (28, 21);
+INSERT INTO movie_genre VALUES (28, 17);
+INSERT INTO movie_genre VALUES (28, 4);
+INSERT INTO movie_genre VALUES (28, 21);
 
 -- Back to the Future: Adventure, Comedy, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (29, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (29, 3);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (29, 8);
+INSERT INTO movie_genre VALUES (29, 2);
+INSERT INTO movie_genre VALUES (29, 3);
+INSERT INTO movie_genre VALUES (29, 8);
 
 -- The Departed: Crime, Drama, Thriller
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (30, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (30, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (30, 9);
+INSERT INTO movie_genre VALUES (30, 10);
+INSERT INTO movie_genre VALUES (30, 4);
+INSERT INTO movie_genre VALUES (30, 9);
 
 -- Whiplash: Drama, Music
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (31, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (31, 21);
+INSERT INTO movie_genre VALUES (31, 4);
+INSERT INTO movie_genre VALUES (31, 21);
 
 -- The Lion King: Animation, Adventure, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (32, 11);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (32, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (32, 4);
+INSERT INTO movie_genre VALUES (32, 11);
+INSERT INTO movie_genre VALUES (32, 2);
+INSERT INTO movie_genre VALUES (32, 4);
 
 -- The Godfather: Part II: Crime, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (33, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (33, 4);
+INSERT INTO movie_genre VALUES (33, 10);
+INSERT INTO movie_genre VALUES (33, 4);
 
 -- The Lord of the Rings: The Return of the King: Adventure, Drama, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (34, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (34, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (34, 5);
+INSERT INTO movie_genre VALUES (34, 2);
+INSERT INTO movie_genre VALUES (34, 4);
+INSERT INTO movie_genre VALUES (34, 5);
 
 -- Interstellar: Adventure, Drama, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (35, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (35, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (35, 8);
+INSERT INTO movie_genre VALUES (35, 2);
+INSERT INTO movie_genre VALUES (35, 4);
+INSERT INTO movie_genre VALUES (35, 8);
 
 -- The Godfather: Crime, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (36, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (36, 4);
+INSERT INTO movie_genre VALUES (36, 10);
+INSERT INTO movie_genre VALUES (36, 4);
 
 -- Spirited Away: Animation, Adventure, Family
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (37, 11);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (37, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (37, 12);
+INSERT INTO movie_genre VALUES (37, 11);
+INSERT INTO movie_genre VALUES (37, 2);
+INSERT INTO movie_genre VALUES (37, 12);
 
 -- Pulp Fiction: Crime, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (38, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (38, 4);
+INSERT INTO movie_genre VALUES (38, 10);
+INSERT INTO movie_genre VALUES (38, 4);
 
 -- The Dark Knight: Action, Crime, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (39, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (39, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (39, 4);
+INSERT INTO movie_genre VALUES (39, 1);
+INSERT INTO movie_genre VALUES (39, 10);
+INSERT INTO movie_genre VALUES (39, 4);
 
 -- The Lord of the Rings: The Two Towers: Adventure, Drama, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (40, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (40, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (40, 5);
+INSERT INTO movie_genre VALUES (40, 2);
+INSERT INTO movie_genre VALUES (40, 4);
+INSERT INTO movie_genre VALUES (40, 5);
 
 -- The Green Mile: Crime, Drama, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (41, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (41, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (41, 5);
+INSERT INTO movie_genre VALUES (41, 10);
+INSERT INTO movie_genre VALUES (41, 4);
+INSERT INTO movie_genre VALUES (41, 5);
 
 -- Forrest Gump: Drama, Romance
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (42, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (42, 13);
+INSERT INTO movie_genre VALUES (42, 4);
+INSERT INTO movie_genre VALUES (42, 13);
 
 -- Inception: Action, Adventure, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (43, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (43, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (43, 8);
+INSERT INTO movie_genre VALUES (43, 1);
+INSERT INTO movie_genre VALUES (43, 2);
+INSERT INTO movie_genre VALUES (43, 8);
 
 -- Gladiator: Action, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (44, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (44, 4);
+INSERT INTO movie_genre VALUES (44, 1);
+INSERT INTO movie_genre VALUES (44, 4);
 
 -- The Silence of the Lambs: Crime, Drama, Thriller
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (45, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (45, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (45, 9);
+INSERT INTO movie_genre VALUES (45, 10);
+INSERT INTO movie_genre VALUES (45, 4);
+INSERT INTO movie_genre VALUES (45, 9);
 
 -- The Departed: Crime, Drama, Thriller
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (46, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (46, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (46, 9);
+INSERT INTO movie_genre VALUES (46, 10);
+INSERT INTO movie_genre VALUES (46, 4);
+INSERT INTO movie_genre VALUES (46, 9);
 
 -- The Avengers: Action, Adventure, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (47, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (47, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (47, 8);
+INSERT INTO movie_genre VALUES (47, 1);
+INSERT INTO movie_genre VALUES (47, 2);
+INSERT INTO movie_genre VALUES (47, 8);
 
 -- The Prestige: Drama, Mystery, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (48, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (48, 7);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (48, 8);
+INSERT INTO movie_genre VALUES (48, 4);
+INSERT INTO movie_genre VALUES (48, 7);
+INSERT INTO movie_genre VALUES (48, 8);
 
 -- The Intouchables: Biography, Comedy, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (49, 17);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (49, 3);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (49, 4);
+INSERT INTO movie_genre VALUES (49, 17);
+INSERT INTO movie_genre VALUES (49, 3);
+INSERT INTO movie_genre VALUES (49, 4);
 
 -- The Pianist: Biography, Drama, Music
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (50, 17);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (50, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (50, 21);
+INSERT INTO movie_genre VALUES (50, 17);
+INSERT INTO movie_genre VALUES (50, 4);
+INSERT INTO movie_genre VALUES (50, 21);
 
 -- Back to the Future: Adventure, Comedy, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (51, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (51, 3);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (51, 8);
+INSERT INTO movie_genre VALUES (51, 2);
+INSERT INTO movie_genre VALUES (51, 3);
+INSERT INTO movie_genre VALUES (51, 8);
 
 -- Whiplash: Drama, Music
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (52, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (52, 21);
+INSERT INTO movie_genre VALUES (52, 4);
+INSERT INTO movie_genre VALUES (52, 21);
 
 -- The Lord of the Rings: The Fellowship of the Ring: Adventure, Drama, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (53, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (53, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (53, 5);
+INSERT INTO movie_genre VALUES (53, 2);
+INSERT INTO movie_genre VALUES (53, 4);
+INSERT INTO movie_genre VALUES (53, 5);
 
 -- The Lion King: Animation, Adventure, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (54, 11);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (54, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (54, 4);
+INSERT INTO movie_genre VALUES (54, 11);
+INSERT INTO movie_genre VALUES (54, 2);
+INSERT INTO movie_genre VALUES (54, 4);
 
 -- The Godfather: Part II: Crime, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (55, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (55, 4);
+INSERT INTO movie_genre VALUES (55, 10);
+INSERT INTO movie_genre VALUES (55, 4);
 
 -- Star Wars: Episode V - The Empire Strikes Back: Action, Adventure, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (56, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (56, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (56, 5);
+INSERT INTO movie_genre VALUES (56, 1);
+INSERT INTO movie_genre VALUES (56, 2);
+INSERT INTO movie_genre VALUES (56, 5);
 
 -- Avengers: Infinity War: Action, Adventure, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (57, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (57, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (57, 8);
+INSERT INTO movie_genre VALUES (57, 1);
+INSERT INTO movie_genre VALUES (57, 2);
+INSERT INTO movie_genre VALUES (57, 8);
 
 -- Saving Private Ryan: Drama, War
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (58, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (58, 16);
+INSERT INTO movie_genre VALUES (58, 4);
+INSERT INTO movie_genre VALUES (58, 16);
 
 -- The Dark Knight Rises: Action, Adventure, Thriller
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (59, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (59, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (59, 9);
+INSERT INTO movie_genre VALUES (59, 1);
+INSERT INTO movie_genre VALUES (59, 2);
+INSERT INTO movie_genre VALUES (59, 9);
 
 -- The Lord of the Rings: The Return of the King: Adventure, Drama, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (60, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (60, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (60, 5);
+INSERT INTO movie_genre VALUES (60, 2);
+INSERT INTO movie_genre VALUES (60, 4);
+INSERT INTO movie_genre VALUES (60, 5);
 
 -- Interstellar: Adventure, Drama, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (61, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (61, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (61, 8);
+INSERT INTO movie_genre VALUES (61, 2);
+INSERT INTO movie_genre VALUES (61, 4);
+INSERT INTO movie_genre VALUES (61, 8);
 
 -- Spirited Away: Animation, Adventure, Family
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (62, 11);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (62, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (62, 12);
+INSERT INTO movie_genre VALUES (62, 11);
+INSERT INTO movie_genre VALUES (62, 2);
+INSERT INTO movie_genre VALUES (62, 12);
 
 -- Pulp Fiction: Crime, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (63, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (63, 4);
+INSERT INTO movie_genre VALUES (63, 10);
+INSERT INTO movie_genre VALUES (63, 4);
 
 -- The Green Mile: Crime, Drama, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (64, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (64, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (64, 5);
+INSERT INTO movie_genre VALUES (64, 10);
+INSERT INTO movie_genre VALUES (64, 4);
+INSERT INTO movie_genre VALUES (64, 5);
 
 -- Forrest Gump: Drama, Romance
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (65, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (65, 13);
+INSERT INTO movie_genre VALUES (65, 4);
+INSERT INTO movie_genre VALUES (65, 13);
 
 -- Inception: Action, Adventure, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (66, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (66, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (66, 8);
+INSERT INTO movie_genre VALUES (66, 1);
+INSERT INTO movie_genre VALUES (66, 2);
+INSERT INTO movie_genre VALUES (66, 8);
 
 -- The Shawshank Redemption: Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (67, 4);
+INSERT INTO movie_genre VALUES (67, 4);
 
 -- The Godfather: Part II: Crime, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (68, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (68, 4);
+INSERT INTO movie_genre VALUES (68, 10);
+INSERT INTO movie_genre VALUES (68, 4);
 
 -- The Lord of the Rings: The Two Towers: Adventure, Drama, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (69, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (69, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (69, 5);
+INSERT INTO movie_genre VALUES (69, 2);
+INSERT INTO movie_genre VALUES (69, 4);
+INSERT INTO movie_genre VALUES (69, 5);
 
 -- The Lord of the Rings: The Fellowship of the Ring: Adventure, Drama, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (70, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (70, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (70, 5);
+INSERT INTO movie_genre VALUES (70, 2);
+INSERT INTO movie_genre VALUES (70, 4);
+INSERT INTO movie_genre VALUES (70, 5);
 
 -- The Dark Knight: Action, Crime, Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (71, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (71, 10);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (71, 4);
+INSERT INTO movie_genre VALUES (71, 1);
+INSERT INTO movie_genre VALUES (71, 10);
+INSERT INTO movie_genre VALUES (71, 4);
 
 -- The Matrix: Action, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (72, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (72, 8);
+INSERT INTO movie_genre VALUES (72, 1);
+INSERT INTO movie_genre VALUES (72, 8);
 
 -- The Lord of the Rings: The Return of the King: Adventure, Drama, Fantasy
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (73, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (73, 4);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (73, 5);
+INSERT INTO movie_genre VALUES (73, 2);
+INSERT INTO movie_genre VALUES (73, 4);
+INSERT INTO movie_genre VALUES (73, 5);
 
 -- The Shawshank Redemption: Drama
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (74, 4);
+INSERT INTO movie_genre VALUES (74, 4);
 
 -- Inception: Action, Adventure, Sci-Fi
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (75, 1);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (75, 2);
-INSERT INTO movie_genre (movie_id, genre_id) VALUES (75, 8);
+INSERT INTO movie_genre VALUES (75, 1);
+INSERT INTO movie_genre VALUES (75, 2);
+INSERT INTO movie_genre VALUES (75, 8);
